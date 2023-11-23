@@ -1,6 +1,7 @@
 # Setup asdf
 
 
+
 * Install curl and git
 
     ```bash
