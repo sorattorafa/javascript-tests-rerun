@@ -56,5 +56,5 @@ cd projects/nachos-ui
 
 asdf install
 
-./shaker-js/shaker/shaker.py jest "projects/nachos-ui" -tc "yarn test" -o "logs/nachos-ui/output"
+./shaker-js/shaker/shaker.py jest "projects/nachos-ui" -tc "yarn test" -o "logs/nachos-ui/output" -sr 1000
 ```
