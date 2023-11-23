@@ -1,0 +1,1173 @@
+yarn add v1.22.19
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved 1 new dependency.
+info Direct dependencies
+└─ jest-junit@16.0.0
+info All dependencies
+└─ jest-junit@16.0.0
+$ npm run build
+
+> nachos-ui@0.2.0-beta.1 build
+> babel src/ -d lib/
+
+src/branding_defaults.js -> lib/branding_defaults.js
+src/components/Badge/badge.spec.js -> lib/components/Badge/badge.spec.js
+src/components/Badge/badge.story.js -> lib/components/Badge/badge.story.js
+src/components/Badge/index.js -> lib/components/Badge/index.js
+src/components/Bubble/Bubble.spec.js -> lib/components/Bubble/Bubble.spec.js
+src/components/Bubble/bubble.story.js -> lib/components/Bubble/bubble.story.js
+src/components/Bubble/index.js -> lib/components/Bubble/index.js
+src/components/Button/Button.spec.js -> lib/components/Button/Button.spec.js
+src/components/Button/button.story.js -> lib/components/Button/button.story.js
+src/components/Button/index.js -> lib/components/Button/index.js
+src/components/Card/Card.spec.js -> lib/components/Card/Card.spec.js
+src/components/Card/card.story.js -> lib/components/Card/card.story.js
+src/components/Card/index.js -> lib/components/Card/index.js
+src/components/Carousel/Carousel.spec.js -> lib/components/Carousel/Carousel.spec.js
+src/components/Carousel/carousel.story.js -> lib/components/Carousel/carousel.story.js
+src/components/Carousel/index.js -> lib/components/Carousel/index.js
+src/components/Checkbox/Checkbox.spec.js -> lib/components/Checkbox/Checkbox.spec.js
+src/components/Checkbox/checkbox.story.js -> lib/components/Checkbox/checkbox.story.js
+src/components/Checkbox/index.js -> lib/components/Checkbox/index.js
+src/components/Gravatar/Gravatar.spec.js -> lib/components/Gravatar/Gravatar.spec.js
+src/components/Gravatar/gravatar.story.js -> lib/components/Gravatar/gravatar.story.js
+src/components/Gravatar/index.js -> lib/components/Gravatar/index.js
+src/components/Icon/icon.story.js -> lib/components/Icon/icon.story.js
+src/components/Icon/index.js -> lib/components/Icon/index.js
+src/components/Indicator/Indicator.spec.js -> lib/components/Indicator/Indicator.spec.js
+src/components/Indicator/index.js -> lib/components/Indicator/index.js
+src/components/Indicator/indicator.story.js -> lib/components/Indicator/indicator.story.js
+src/components/Input/Input.spec.js -> lib/components/Input/Input.spec.js
+src/components/Input/index.js -> lib/components/Input/index.js
+src/components/Input/input.story.js -> lib/components/Input/input.story.js
+src/components/Progress/Progress.spec.js -> lib/components/Progress/Progress.spec.js
+src/components/Progress/index.js -> lib/components/Progress/index.js
+src/components/Progress/progress.story.js -> lib/components/Progress/progress.story.js
+src/components/Radio/Radio.spec.js -> lib/components/Radio/Radio.spec.js
+src/components/Radio/index.js -> lib/components/Radio/index.js
+src/components/Radio/radio.story.js -> lib/components/Radio/radio.story.js
+src/components/RadioGroup/RadioGroup.spec.js -> lib/components/RadioGroup/RadioGroup.spec.js
+src/components/RadioGroup/index.js -> lib/components/RadioGroup/index.js
+src/components/RadioGroup/radio_group.story.js -> lib/components/RadioGroup/radio_group.story.js
+src/components/SegmentedControlButton/SegmentedControlButton.spec.js -> lib/components/SegmentedControlButton/SegmentedControlButton.spec.js
+src/components/SegmentedControlButton/index.js -> lib/components/SegmentedControlButton/index.js
+src/components/SegmentedControlButton/segmented_control_button.story.js -> lib/components/SegmentedControlButton/segmented_control_button.story.js
+src/components/Slider/Slider.spec.js -> lib/components/Slider/Slider.spec.js
+src/components/Slider/index.js -> lib/components/Slider/index.js
+src/components/Slider/slider.story.js -> lib/components/Slider/slider.story.js
+src/components/Spinner/Spinner.spec.js -> lib/components/Spinner/Spinner.spec.js
+src/components/Spinner/index.js -> lib/components/Spinner/index.js
+src/components/Spinner/spinner.story.js -> lib/components/Spinner/spinner.story.js
+src/components/Switcher/Switcher.spec.js -> lib/components/Switcher/Switcher.spec.js
+src/components/Switcher/index.js -> lib/components/Switcher/index.js
+src/components/Switcher/switcher.story.js -> lib/components/Switcher/switcher.story.js
+src/components/Theme/index.js -> lib/components/Theme/index.js
+src/components/Theme/theme.story.js -> lib/components/Theme/theme.story.js
+src/components/WebStyles/index.js -> lib/components/WebStyles/index.js
+src/components/typography/A.js -> lib/components/typography/A.js
+src/components/typography/B.js -> lib/components/typography/B.js
+src/components/typography/Em.js -> lib/components/typography/Em.js
+src/components/typography/H1.js -> lib/components/typography/H1.js
+src/components/typography/H2.js -> lib/components/typography/H2.js
+src/components/typography/H3.js -> lib/components/typography/H3.js
+src/components/typography/H4.js -> lib/components/typography/H4.js
+src/components/typography/H5.js -> lib/components/typography/H5.js
+src/components/typography/H6.js -> lib/components/typography/H6.js
+src/components/typography/I.js -> lib/components/typography/I.js
+src/components/typography/P.js -> lib/components/typography/P.js
+src/components/typography/Strong.js -> lib/components/typography/Strong.js
+src/components/typography/Text.js -> lib/components/typography/Text.js
+src/components/typography/__tests__/A.spec.js -> lib/components/typography/__tests__/A.spec.js
+src/components/typography/__tests__/Em.spec.js -> lib/components/typography/__tests__/Em.spec.js
+src/components/typography/__tests__/H1.spec.js -> lib/components/typography/__tests__/H1.spec.js
+src/components/typography/__tests__/H2.spec.js -> lib/components/typography/__tests__/H2.spec.js
+src/components/typography/__tests__/H3.spec.js -> lib/components/typography/__tests__/H3.spec.js
+src/components/typography/__tests__/H4.spec.js -> lib/components/typography/__tests__/H4.spec.js
+src/components/typography/__tests__/H5.spec.js -> lib/components/typography/__tests__/H5.spec.js
+src/components/typography/__tests__/H6.spec.js -> lib/components/typography/__tests__/H6.spec.js
+src/components/typography/__tests__/P.spec.js -> lib/components/typography/__tests__/P.spec.js
+src/components/typography/__tests__/Strong.spec.js -> lib/components/typography/__tests__/Strong.spec.js
+src/components/typography/typography.story.js -> lib/components/typography/typography.story.js
+src/index.js -> lib/index.js
+src/storybook.android.js -> lib/storybook.android.js
+src/storybook.ios.js -> lib/storybook.ios.js
+src/storybook.js -> lib/storybook.js
+Done in 7.27s.
+yarn install v1.22.19
+[1/4] Resolving packages...
+success Already up-to-date.
+$ npm run build
+
+> nachos-ui@0.2.0-beta.1 build
+> babel src/ -d lib/
+
+src/branding_defaults.js -> lib/branding_defaults.js
+src/components/Badge/badge.spec.js -> lib/components/Badge/badge.spec.js
+src/components/Badge/badge.story.js -> lib/components/Badge/badge.story.js
+src/components/Badge/index.js -> lib/components/Badge/index.js
+src/components/Bubble/Bubble.spec.js -> lib/components/Bubble/Bubble.spec.js
+src/components/Bubble/bubble.story.js -> lib/components/Bubble/bubble.story.js
+src/components/Bubble/index.js -> lib/components/Bubble/index.js
+src/components/Button/Button.spec.js -> lib/components/Button/Button.spec.js
+src/components/Button/button.story.js -> lib/components/Button/button.story.js
+src/components/Button/index.js -> lib/components/Button/index.js
+src/components/Card/Card.spec.js -> lib/components/Card/Card.spec.js
+src/components/Card/card.story.js -> lib/components/Card/card.story.js
+src/components/Card/index.js -> lib/components/Card/index.js
+src/components/Carousel/Carousel.spec.js -> lib/components/Carousel/Carousel.spec.js
+src/components/Carousel/carousel.story.js -> lib/components/Carousel/carousel.story.js
+src/components/Carousel/index.js -> lib/components/Carousel/index.js
+src/components/Checkbox/Checkbox.spec.js -> lib/components/Checkbox/Checkbox.spec.js
+src/components/Checkbox/checkbox.story.js -> lib/components/Checkbox/checkbox.story.js
+src/components/Checkbox/index.js -> lib/components/Checkbox/index.js
+src/components/Gravatar/Gravatar.spec.js -> lib/components/Gravatar/Gravatar.spec.js
+src/components/Gravatar/gravatar.story.js -> lib/components/Gravatar/gravatar.story.js
+src/components/Gravatar/index.js -> lib/components/Gravatar/index.js
+src/components/Icon/icon.story.js -> lib/components/Icon/icon.story.js
+src/components/Icon/index.js -> lib/components/Icon/index.js
+src/components/Indicator/Indicator.spec.js -> lib/components/Indicator/Indicator.spec.js
+src/components/Indicator/index.js -> lib/components/Indicator/index.js
+src/components/Indicator/indicator.story.js -> lib/components/Indicator/indicator.story.js
+src/components/Input/Input.spec.js -> lib/components/Input/Input.spec.js
+src/components/Input/index.js -> lib/components/Input/index.js
+src/components/Input/input.story.js -> lib/components/Input/input.story.js
+src/components/Progress/Progress.spec.js -> lib/components/Progress/Progress.spec.js
+src/components/Progress/index.js -> lib/components/Progress/index.js
+src/components/Progress/progress.story.js -> lib/components/Progress/progress.story.js
+src/components/Radio/Radio.spec.js -> lib/components/Radio/Radio.spec.js
+src/components/Radio/index.js -> lib/components/Radio/index.js
+src/components/Radio/radio.story.js -> lib/components/Radio/radio.story.js
+src/components/RadioGroup/RadioGroup.spec.js -> lib/components/RadioGroup/RadioGroup.spec.js
+src/components/RadioGroup/index.js -> lib/components/RadioGroup/index.js
+src/components/RadioGroup/radio_group.story.js -> lib/components/RadioGroup/radio_group.story.js
+src/components/SegmentedControlButton/SegmentedControlButton.spec.js -> lib/components/SegmentedControlButton/SegmentedControlButton.spec.js
+src/components/SegmentedControlButton/index.js -> lib/components/SegmentedControlButton/index.js
+src/components/SegmentedControlButton/segmented_control_button.story.js -> lib/components/SegmentedControlButton/segmented_control_button.story.js
+src/components/Slider/Slider.spec.js -> lib/components/Slider/Slider.spec.js
+src/components/Slider/index.js -> lib/components/Slider/index.js
+src/components/Slider/slider.story.js -> lib/components/Slider/slider.story.js
+src/components/Spinner/Spinner.spec.js -> lib/components/Spinner/Spinner.spec.js
+src/components/Spinner/index.js -> lib/components/Spinner/index.js
+src/components/Spinner/spinner.story.js -> lib/components/Spinner/spinner.story.js
+src/components/Switcher/Switcher.spec.js -> lib/components/Switcher/Switcher.spec.js
+src/components/Switcher/index.js -> lib/components/Switcher/index.js
+src/components/Switcher/switcher.story.js -> lib/components/Switcher/switcher.story.js
+src/components/Theme/index.js -> lib/components/Theme/index.js
+src/components/Theme/theme.story.js -> lib/components/Theme/theme.story.js
+src/components/WebStyles/index.js -> lib/components/WebStyles/index.js
+src/components/typography/A.js -> lib/components/typography/A.js
+src/components/typography/B.js -> lib/components/typography/B.js
+src/components/typography/Em.js -> lib/components/typography/Em.js
+src/components/typography/H1.js -> lib/components/typography/H1.js
+src/components/typography/H2.js -> lib/components/typography/H2.js
+src/components/typography/H3.js -> lib/components/typography/H3.js
+src/components/typography/H4.js -> lib/components/typography/H4.js
+src/components/typography/H5.js -> lib/components/typography/H5.js
+src/components/typography/H6.js -> lib/components/typography/H6.js
+src/components/typography/I.js -> lib/components/typography/I.js
+src/components/typography/P.js -> lib/components/typography/P.js
+src/components/typography/Strong.js -> lib/components/typography/Strong.js
+src/components/typography/Text.js -> lib/components/typography/Text.js
+src/components/typography/__tests__/A.spec.js -> lib/components/typography/__tests__/A.spec.js
+src/components/typography/__tests__/Em.spec.js -> lib/components/typography/__tests__/Em.spec.js
+src/components/typography/__tests__/H1.spec.js -> lib/components/typography/__tests__/H1.spec.js
+src/components/typography/__tests__/H2.spec.js -> lib/components/typography/__tests__/H2.spec.js
+src/components/typography/__tests__/H3.spec.js -> lib/components/typography/__tests__/H3.spec.js
+src/components/typography/__tests__/H4.spec.js -> lib/components/typography/__tests__/H4.spec.js
+src/components/typography/__tests__/H5.spec.js -> lib/components/typography/__tests__/H5.spec.js
+src/components/typography/__tests__/H6.spec.js -> lib/components/typography/__tests__/H6.spec.js
+src/components/typography/__tests__/P.spec.js -> lib/components/typography/__tests__/P.spec.js
+src/components/typography/__tests__/Strong.spec.js -> lib/components/typography/__tests__/Strong.spec.js
+src/components/typography/typography.story.js -> lib/components/typography/typography.story.js
+src/index.js -> lib/index.js
+src/storybook.android.js -> lib/storybook.android.js
+src/storybook.ios.js -> lib/storybook.ios.js
+src/storybook.js -> lib/storybook.js
+Done in 2.12s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 4.61s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 5.06s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 6.82s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 5.20s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 4.82s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 5.25s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 5.50s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 5.87s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 5.07s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 6.55s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 5.40s.
+yarn run v1.22.19
+$ jest --reporters=default --reporters=jest-junit
+---------------------------------------|----------|----------|----------|----------|-------------------|
+File                                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+All files                              |    48.77 |    44.44 |    44.44 |    49.25 |                   |
+ src                                   |        0 |      100 |        0 |        0 |                   |
+  branding_defaults.js                 |        0 |        0 |        0 |        0 |                   |
+  storybook.android.js                 |        0 |      100 |        0 |        0 |               1,2 |
+  storybook.ios.js                     |        0 |      100 |        0 |        0 |               1,2 |
+ src/components/Badge                  |       50 |       50 |       50 |       50 |                   |
+  badge.story.js                       |        0 |      100 |        0 |        0 |         1,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                12 |
+ src/components/Bubble                 |    57.14 |       50 |       50 |    57.14 |                   |
+  bubble.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,5,7,8 |
+  index.js                             |      100 |       50 |      100 |      100 |                18 |
+ src/components/Button                 |    58.33 |    52.63 |    14.29 |    58.33 |                   |
+  button.story.js                      |        0 |      100 |        0 |        0 |    1,3,4,5,7,9,10 |
+  index.js                             |    82.35 |    52.63 |    16.67 |    82.35 |          67,73,74 |
+ src/components/Card                   |    63.64 |       75 |       50 |    63.64 |                   |
+  card.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |    93.33 |       75 |      100 |    93.33 |                12 |
+ src/components/Carousel               |    21.85 |    17.58 |    33.33 |    21.85 |                   |
+  carousel.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,16,27 |
+  index.js                             |    23.08 |    17.58 |    35.48 |    23.08 |... 64,368,379,383 |
+ src/components/Checkbox               |       40 |      100 |    16.67 |       40 |                   |
+  checkbox.story.js                    |        0 |      100 |        0 |        0 |... 10,19,21,22,24 |
+  index.js                             |    88.89 |      100 |       25 |    88.89 |                39 |
+ src/components/Gravatar               |    64.29 |       50 |       50 |    64.29 |                   |
+  gravatar.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,11 |
+  index.js                             |    85.71 |       50 |      100 |    85.71 |          46,50,53 |
+ src/components/Icon                   |    46.67 |       75 |    33.33 |       50 |                   |
+  icon.story.js                        |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+  index.js                             |     87.5 |       75 |      100 |      100 |               942 |
+ src/components/Indicator              |    41.18 |      100 |    33.33 |    41.18 |                   |
+  index.js                             |    77.78 |      100 |       50 |    77.78 |             51,52 |
+  indicator.story.js                   |        0 |      100 |        0 |        0 | 1,3,4,5,7,8,13,16 |
+ src/components/Input                  |    70.37 |       50 |       50 |    70.37 |                   |
+  index.js                             |       95 |       50 |      100 |       95 |                16 |
+  input.story.js                       |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Progress               |    52.94 |       50 |       50 |    56.25 |                   |
+  index.js                             |       90 |       50 |      100 |      100 |                20 |
+  progress.story.js                    |        0 |      100 |        0 |        0 |    1,3,4,5,7,8,10 |
+ src/components/Radio                  |    38.46 |      100 |    33.33 |    38.46 |                   |
+  index.js                             |      100 |      100 |       50 |      100 |                   |
+  radio.story.js                       |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/RadioGroup             |    58.82 |       50 |       60 |    58.82 |                   |
+  index.js                             |    90.91 |       50 |       75 |    90.91 |                13 |
+  radio_group.story.js                 |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/SegmentedControlButton |       72 |    46.15 |    33.33 |       72 |                   |
+  index.js                             |      100 |    46.15 |       50 |      100 | 26,49,58,59,60,65 |
+  segmented_control_button.story.js    |        0 |      100 |        0 |        0 |     1,3,4,5,6,8,9 |
+ src/components/Slider                 |    22.73 |       50 |       20 |    22.73 |                   |
+  index.js                             |    31.25 |       50 |    22.22 |    31.25 |... 85,86,87,88,90 |
+  slider.story.js                      |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Spinner                |    67.57 |       50 |       60 |    67.57 |                   |
+  index.js                             |    80.65 |       50 |    64.29 |    80.65 | 40,63,70,73,74,75 |
+  spinner.story.js                     |        0 |      100 |        0 |        0 |       1,3,4,6,8,9 |
+ src/components/Switcher               |    53.57 |    58.82 |    57.14 |    53.57 |                   |
+  index.js                             |       75 |    58.82 |    66.67 |       75 |    32,42,43,66,73 |
+  switcher.story.js                    |        0 |      100 |        0 |        0 | 1,3,4,5,7,9,10,12 |
+ src/components/Theme                  |    81.82 |    76.67 |      100 |    83.87 |                   |
+  index.js                             |    81.82 |    76.67 |      100 |    83.87 |  18,24,82,118,119 |
+ src/components/WebStyles              |        0 |      100 |      100 |        0 |                   |
+  index.js                             |        0 |      100 |      100 |        0 |            1,2,10 |
+ src/components/typography             |    63.75 |        0 |    66.67 |    63.75 |                   |
+  A.js                                 |    16.67 |        0 |       20 |    16.67 |... 46,49,50,51,53 |
+  B.js                                 |        0 |        0 |        0 |        0 |                   |
+  Em.js                                |      100 |      100 |      100 |      100 |                   |
+  H1.js                                |      100 |      100 |      100 |      100 |                   |
+  H2.js                                |      100 |      100 |      100 |      100 |                   |
+  H3.js                                |      100 |      100 |      100 |      100 |                   |
+  H4.js                                |      100 |      100 |      100 |      100 |                   |
+  H5.js                                |      100 |      100 |      100 |      100 |                   |
+  H6.js                                |      100 |      100 |      100 |      100 |                   |
+  I.js                                 |        0 |      100 |      100 |        0 |                 1 |
+  P.js                                 |        0 |        0 |        0 |        0 |                   |
+  Strong.js                            |      100 |      100 |      100 |      100 |                   |
+  Text.js                              |      100 |      100 |      100 |      100 |                   |
+  typography.story.js                  |        0 |      100 |        0 |        0 |... 15,17,19,20,22 |
+---------------------------------------|----------|----------|----------|----------|-------------------|
+Done in 4.96s.
