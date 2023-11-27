@@ -56,5 +56,16 @@ cd projects/nachos-ui
 
 asdf install
 
-./shaker-js/shaker/shaker.py jest "projects/nachos-ui" -tc "yarn test" -o "logs/nachos-ui/output" -sr 1000
+./shaker-js/shaker/shaker.py jest "projects/nachos-ui" -tc "yarn test" -o "projects/nachos-ui/output" -sr 1000
+```
+
+## React
+
+```bash 
+
+cd projects/react
+
+asdf install
+
+./shaker-js/shaker/shaker.py jest "projects/react" -tc "yarn test" -o "projects/react/output" -sr 1000
 ```
