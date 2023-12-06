@@ -47,6 +47,12 @@
 
 # Projects rerun
 
+## Clone Repository on Projects dir
+
+```bash
+cd projects/
+git clone repo
+```
 ## 1 Nachos-ui
 
 
