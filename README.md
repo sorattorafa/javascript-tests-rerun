@@ -1,5 +1,9 @@
 # Projects rerun
 
+https://github.com/topics/css-framework
+
+
+
 Steps:
 
     1 - Make a repository fork;
@@ -11,6 +15,13 @@ Steps:
 cd projects/
 git clone repo
 ```
+
+
+
+### bootstrap
+
+- ./shaker-js/shaker/shaker.py karma "projects/bootstrap" -tc "yarn js-test" -o "projects/bootstrap/output" -sr 1 -nsr 1
+
 ## 1 Nachos-ui
 
 
@@ -34,6 +45,22 @@ asdf install
 ./shaker-js/shaker/shaker.py jest "projects/react" -tc "yarn test" -o "projects/react/output" -sr 1 -nsr 1000
 ```
 
+
+./shaker-js/shaker/shaker.py jest "projects/moleculer" -tc "yarn test" -o "projects/moleculer/output" -sr 0 -nsr 1
+
+
+
+## Ant design
+
+
+```bash 
+
+cd projects/react
+
+asdf install
+
+./shaker-js/shaker/shaker.py jest "projects/ant-design" -tc "npm run test -- -u" -o "projects/ant-design/output" -sr 0 -nsr 1
+```
 
 # Projects rerun into GitHubCI
 
